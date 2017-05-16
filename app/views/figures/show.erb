@@ -1,0 +1,10 @@
+show
+
+<%= @figure.name %>
+
+<% Landmark.all.each do |landmark| %>
+     <li><%= landmark.name %></li>
+<% end %>
+<% Title.all.each do |title| %>
+     <li><%= title.name %></li>
+<% end %>
